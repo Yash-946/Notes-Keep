@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity(), NoteAdapter.NoteClickListener,PopupMen
     }
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
